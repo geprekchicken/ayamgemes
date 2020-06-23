@@ -1,0 +1,263 @@
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Avenir Next";
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+  background-image: url("https://www.dimanaja.com/assets/images/cover/ed76b4c8a4f9c2526b462259841056805244a4f8.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.signup {
+  color: #239b76;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #55acee;
+}
+
+.fa {
+  margin: 10px;
+}
+.btn-footer a:hover {
+  font-weight: bold;
+}
+
+
+header {
+  display: inline;
+}
+.container {
+    background-color: rgba(34, 49, 52, 0.9);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+.header-left {
+  float: left;
+  width: 20%;
+
+}
+.header-left li {
+  display: inline;
+}
+.header-left img {
+  width: 150px;
+  height: 50px;
+}
+
+
+.header-list  li{
+  width: 80%;
+  display: inline;
+  list-style-type: none;
+  padding: 33px 20px;
+
+
+}
+.header-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 18 px;
+  font-weight: 400;
+}
+
+.header-list a:hover {
+  font-weight: bold;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/*Conten promo*/
+
+main {
+overflow: auto;
+margin:0px 30px;
+}
+.promo {
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 31%;
+    float: left;
+}
+
+.promo .promoFoto {
+    width: 100%;
+    max-height: 200px;
+    object-position: center;
+}
+
+.promo-info {
+    padding: 5px 20px;
+}
+
+/* Menu */
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  width: 100%;
+  margin: 50px 0px;
+
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+.contents-item {
+  border-radius: 15px;
+  background: #dee7ec;
+  padding: 20px;
+  padding-bottom: 10px;
+  width: 20%;
+  height: 450px;
+  float: left;
+  margin: 10px;
+}
+
+.contents-item img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-title iframe {
+  width: auto;
+  height: auto;
+}
+
+.btn {
+  color: #fff;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.menuList {
+  margin: 20px;
+}
+.letak {
+  margin: 20px;
+}
+/* Footer */
+footer img {
+  width: 124px;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #b3aeb5;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.btn-footer {
+  padding-bottom: 20px;
+}
+.fa {
+  margin-right: 5px;
+  color: white;
+}
+
+
+.clear {
+  clear: left;
+}
+/* RESPONSIVE */
+@media (max-width:1000px) {
+  /* Tambahkan CSS untuk lesson */
+  .promo  {
+    width: 90%;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  .contents-item {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .promoFoto img{
+      height: 80%;
+      width: 100%;
+  }
+
+}
+/* Untuk Smartphones */
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+  /* Ubah width milik lesson ke 100% */
+  .contents-item  {
+    width: 95%;
+    margin-bottom: 50px;
+  }
+
+  .promo{
+    width: 90%%;
+    margin-bottom: 50px;
+  }
+  /* Ubah text-align property milik <footer> */
+}
