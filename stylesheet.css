@@ -226,38 +226,3 @@ footer {
 .clear {
   clear: left;
 }
-/* RESPONSIVE */
-@media (max-width:1000px) {
-  /* Tambahkan CSS untuk lesson */
-  .promo  {
-    width: 90%;
-    margin-bottom: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-  }
-
-  .contents-item {
-    width: 40%;
-    margin-bottom: 50px;
-  }
-  .promoFoto img{
-      height: 80%;
-      width: 100%;
-  }
-
-}
-/* Untuk Smartphones */
-/* Tambahkan breakpoint max-width: 670px */
-@media (max-width: 670px) {
-  /* Ubah width milik lesson ke 100% */
-  .contents-item  {
-    width: 95%;
-    margin-bottom: 50px;
-  }
-
-  .promo{
-    width: 90%%;
-    margin-bottom: 50px;
-  }
-  /* Ubah text-align property milik <footer> */
-}
